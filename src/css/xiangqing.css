@@ -1,0 +1,308 @@
+#main .cont {
+  height: 603px;
+}
+
+#main .cont p {
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+  font-size: 12px;
+}
+
+#main .cont p a {
+  color: #666;
+}
+
+#main .cont .acont_l {
+  width: 436px;
+  height: 100%;
+  float: left;
+}
+
+#main .cont .acont_l ul {
+  margin-top: 10px;
+}
+
+#main .cont .acont_l ul li {
+  float: left;
+  margin-left: 10px;
+  border: 1px solid #ddd;
+}
+
+#main .cont .acont_c {
+  float: left;
+  width: 385px;
+  height: 100%;
+}
+
+#main .cont .acont_c h2 {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#main .cont .acont_c .jiage {
+  width: 370;
+  height: 120px;
+  background-color: #FFF6EB;
+  padding-left: 15px;
+  margin-bottom: 12px;
+}
+
+#main .cont .acont_c .jiage p {
+  font-size: 1px;
+  color: #666;
+  height: 30px;
+  line-height: 40px;
+}
+
+#main .cont .acont_c .jiage p em {
+  color: #EC1611;
+  font-size: 24px;
+  weight: bold;
+}
+
+#main .cont .acont_c .jiage p del {
+  color: #666;
+  font-size: 12px;
+  margin: 0 5px;
+}
+
+#main .cont .acont_c .jiage p i {
+  display: inline-block;
+  width: 47px;
+  height: 19px;
+  border-radius: 5px;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 19px;
+  margin-right: 10px;
+  background-color: #FF8A00;
+}
+
+#main .cont .acont_c .jiage p span {
+  font-size: 12px;
+}
+
+#main .cont .acont_c .jiage p span:nth-child(3) {
+  padding-left: 10px;
+}
+
+#main .cont .acont_c .jiage p:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+#main .cont .acont_c .jiage p:nth-child(3) {
+  color: #FE7393;
+}
+
+#main .cont .acont_c .jiage p:nth-child(3) i {
+  background-color: #FE7393;
+}
+
+#main .cont .acont_c .jiage p:nth-child(3) span:nth-child(3) {
+  display: inline-block;
+  width: 53px;
+  height: 18px;
+  border: 1px solid #FE7393;
+  text-align: center;
+  line-height: 18px;
+  padding: 0;
+  margin-left: 10px;
+}
+
+#main .cont .acont_c .jiage p:nth-child(3) span:nth-child(3) a {
+  color: #FE7393;
+}
+
+#main .cont .acont_c dl {
+  margin-bottom: 15px;
+}
+
+#main .cont .acont_c dl dt {
+  float: left;
+  width: 52px;
+  height: 19px;
+  background: url("../img/jiantou2.png") no-repeat;
+  color: #fff;
+  font-size: 12px;
+  padding-left: 10px;
+  vertical-align: bottom;
+}
+
+#main .cont .acont_c dl dd {
+  font-size: 12px;
+  color: #333;
+  line-height: 19px;
+  display: inline-block;
+}
+
+#main .cont .acont_c dl dd em {
+  color: #DADAD5;
+  padding: 0 20px 0 5px;
+}
+
+#main .cont .acont_c dl dd p {
+  height: 20px;
+  line-height: 20px;
+}
+
+#main .cont .acont_c dl dd p i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: #EC1813;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+#main .cont .acont_c dl dd p:nth-child(2) {
+  margin-top: 10px;
+}
+
+#main .cont .acont_c dl dd img {
+  border: 1px solid #ccc;
+}
+
+#main .cont .acont_c dl dd a {
+  color: #666;
+  display: inline-block;
+  width: 30px;
+  height: 25px;
+  border: 1px solid #ddd;
+  text-align: center;
+  line-height: 25px;
+}
+
+#main .cont .acont_c dl dd a:hover {
+  background-color: #EC1611;
+  color: #fff;
+}
+
+#main .cont .acont_c dl dd button {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+#main .cont .acont_c dl dd input {
+  width: 50px;
+  height: 28px;
+  text-align: center;
+  border: 1px solid #ddd;
+  vertical-align: top;
+  margin: 0 -1px;
+}
+
+#main .cont .acont_c .anniu {
+  margin-top: 20px;
+}
+
+#main .cont .acont_c .anniu a {
+  display: inline-block;
+  width: 160px;
+  height: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  border: 1px solid #EC1611;
+  color: #EC1611;
+}
+
+#main .cont .acont_c .anniu a:nth-child(2) {
+  background-color: #EC1611;
+  color: #fff;
+  margin-left: 10px;
+}
+
+#main .cont .acont_c .tuihuo p i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  background-color: #EC1611;
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+#main .cont .acont_c .tuihuo p i:nth-child(3) {
+  background: url("../img/quan.png") no-repeat;
+  background-color: #fff;
+  margin: 10px 5px 0 10px;
+}
+
+#main .cont .acont_c .tuihuo p span {
+  vertical-align: bottom;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+#main .cont .acont_r {
+  float: right;
+  width: 180px;
+  height: 482px;
+  border: 1px solid #ddd;
+  padding: 15px 15px 0 15px;
+}
+
+#main .cont .acont_r ul li h3 {
+  height: 38px;
+  border-bottom: 1px dashed #ddd;
+  line-height: 38px;
+  font-size: 14px;
+  color: #333;
+}
+
+#main .cont .acont_r ul li p {
+  font-size: 12px;
+  line-height: 40px;
+}
+
+#main .cont .acont_r ul li p span {
+  color: #FF404C;
+}
+
+#main .cont .acont_r ul li em {
+  display: inline-block;
+  text-align: center;
+  width: 65px;
+  height: 28px;
+  border: 1px solid #FF404C;
+  line-height: 28px;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #FF404C;
+}
+
+#main .cont .acont_r ul li em:hover {
+  background-color: #FF404C;
+  color: #fff;
+}
+
+#main .cont .acont_r ul li:nth-child(2) {
+  border-bottom: 1px dashed #ddd;
+}
+
+#main .cont .acont_r ul li:nth-child(2) p:nth-child(1) {
+  width: 134px;
+  background: url("../img/xinyu.png") right no-repeat;
+  margin-top: 20px;
+}
+
+#main .cont .acont_r ul li:nth-child(2) p:nth-child(2) {
+  width: 122px;
+  background: url("../img/zhizi.png") right no-repeat;
+}
+
+#main .cont .acont_r ul li:nth-child(4) {
+  margin: 20px 0 0 10px;
+}

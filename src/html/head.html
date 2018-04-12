@@ -1,0 +1,106 @@
+    
+    <div class="head_top">
+        <div class="cont">
+            <ul>
+                <li><a href="#"><span>团800旗下网站</span></a></li>
+                <li><a href="#"><span>手机版</span></a></li>
+                <li><a href="#"><span>QQ登录</span></a></li>
+                <li><a href="../html/denglu.html"><span style="border-right:0 none;">登录 </span></a><a href="../html/zhuce.html"><span>免费注册</span></a></li>
+                <li><a href="#"><span>我的订单</span></a></li>
+                <li><a href="../html/car.html"><span>购物车</span></a></li>
+                <li><a href="#"><span>帮助中心</span></a></li>
+                <li><a href="#"><span>卖家中心</span></a></li>
+            </ul>  
+        </div>
+    </div>
+
+    <div class="head_cent">
+        <div class="cont">
+            <a href="../index.html"><h1></h1></a>
+            <div class="cent_c">
+                <form action="">
+                    <div class="cent_cl">
+                    </div>
+                    <input type="text" placeholder="女鞋" class="sousuo" />
+                    <input type="submit" value class="fangda" />
+                    <i></i>
+                </form>
+            </div>
+            <div class="cent_r">
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="head_nav">
+        <div class="cont">
+            <ul class="tab1">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="list.html">淘宝精选</a></li>
+                <li><a href="#">9块9包邮</a></li>
+                <li><a href="#">排行榜</a></li>
+                <li><a href="#">品牌团</a></li>
+                <li><a href="#">优品汇</a></li>
+                <li><a href="#">精选预告</a></li>
+                <li><a href="#">积分商城</a></li>
+                <li><a href="#">签到享豪礼</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="fieltop">
+        <div class="wcont">
+            <div class="cont">
+                <ul>
+                    <li><a href="#"><span>首页</span></a></li>
+                    <li><a href="#">品牌团</a></li>
+                    <li><a href="#">优品汇</a></li>
+                    <li><a href="#">淘宝精选</a></li>
+                    <li><a href="#">9块9包邮</a></li>
+                    <li><a href="#">精选预告</a></li>
+                    <li><a href="#">特卖商场</a></li>
+                    <li><a href="#">今日上新</a></li>
+                    <li><a href="#">即将下架</a></li>
+                    <li><a href="#">每日10件</a></li>
+                    <li><a href="#">排行榜</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="xcont">
+            <div class="cont">
+                <ul>
+                    <li><a href="#"><span>全部</span></a></li>
+                    <li><a href="#">中老年</a></li>
+                    <li><a href="#">运动</a></li>
+                    <li><a href="#">家纺</a></li>
+                    <li><a href="#">美妆</a></li>
+                    <li><a href="#">配饰</a></li>
+                    <li><a href="#">数码家电</a></li>
+                    <li><a href="#">内衣</a></li>
+                    <li><a href="#">男装</a></li>
+                    <li><a href="#">美食</a></li>
+                    <li><a href="#">母婴儿童</a></li>
+                    <li><a href="#">居家</a></li>
+                    <li><a href="#">鞋包</a></li>
+                    <li><a href="#">女装</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        let fieltop = document.querySelector('.fieltop');
+        
+        //触发滚动条函数，隐藏或显示按钮
+        window.onscroll = function(){
+            // 获取滚动条滚动距离
+            var scrollHeight = window.scrollY; 
+
+            if(scrollHeight>=200){
+                fieltop.style.display = 'block';
+            }
+            else{
+                
+                fieltop.style.display = 'none';
+            }
+
+        }
+    </script>

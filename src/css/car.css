@@ -1,0 +1,244 @@
+#head {
+  height: 176px;
+  border-bottom: 3px solid #EC1611;
+}
+
+#head .head_top {
+  background-color: #FAFAFA;
+  height: 26px;
+}
+
+#head .head_top ul {
+  float: right;
+}
+
+#head .head_top ul li {
+  float: left;
+}
+
+#head .head_top ul li a {
+  color: #9999B1;
+}
+
+#head .head_top ul li a span {
+  border-right: 1px solid #E5E5E5;
+  padding: 0 15px;
+  font-size: 12px;
+}
+
+#head .head_top ul li:nth-child(3) > span {
+  border-right: 0 none;
+}
+
+#head .head_top ul li:last-child span {
+  border-right: 0 none;
+}
+
+#head .head_c {
+  height: 100px;
+}
+
+#head .head_c .cont {
+  padding-top: 20px;
+}
+
+#head .head_c .cont h1 {
+  width: 181px;
+  height: 41px;
+  background: url("../img/logo.png") no-repeat;
+  margin-right: 24px;
+  float: left;
+}
+
+#head .head_c .cont h2 {
+  width: 300px;
+  height: 30px;
+  background: url("../img/car1.png") no-repeat;
+  float: right;
+  margin-top: 20px;
+}
+
+#head .head_b {
+  height: 50px;
+}
+
+#head .head_b .cont .bcont_l h3 {
+  display: inline-block;
+  font-size: 20px;
+}
+
+#head .head_b .cont .bcont_l p {
+  font-size: 12px;
+  color: #A5A5B2;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#head .head_b .cont .bcont_r i {
+  display: block;
+  width: 490px;
+  height: 50px;
+  background: url("../img/car2.png") no-repeat;
+}
+
+#main .cont .mcont_t {
+  width: 100%;
+  height: 43px;
+}
+
+#main .cont .mcont_t label {
+  display: inline-block;
+  width: 130px;
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#main .cont .mcont_t p {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#main .cont .mcont_t p:nth-child(3) {
+  width: 359px;
+}
+
+#main .cont .mcont_t p:nth-child(4) {
+  width: 155px;
+}
+
+#main .cont .mcont_t p:nth-child(5) {
+  width: 133px;
+}
+
+#main .cont .mcont_t p:nth-child(6) {
+  width: 134px;
+}
+
+#main .cont .mcont_t p:last-child {
+  margin-left: 20px;
+}
+
+#main .cont .mcont_c {
+  min-height: 600px;
+}
+
+#main .cont .mcont_c table {
+  width: 100%;
+  height: 117px;
+  border: 1px solid #ddd;
+  background-color: #FAFAFA;
+  margin-bottom: 20px;
+}
+
+#main .cont .mcont_c table tbody td {
+  text-align: center;
+}
+
+#main .cont .mcont_c table tbody td img {
+  width: 75px;
+  height: 75px;
+  float: left;
+  padding-left: 10px;
+}
+
+#main .cont .mcont_c table tbody td p {
+  display: block;
+  width: 200px;
+  float: left;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+#main .cont .mcont_c table tbody td p a {
+  color: #333;
+}
+
+#main .cont .mcont_c table tbody td .time {
+  width: 190px;
+  color: #333;
+  text-align: right;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(1) {
+  width: 64px;
+  text-align: right;
+  padding-bottom: 50px;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(2) {
+  width: 403px;
+  text-align: left;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(2) p:hover a {
+  color: #FF0600;
+  border-bottom: 1px solid #FF0600;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(3) {
+  width: 150px;
+  padding-bottom: 30px;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(3) span {
+  font-size: 12px;
+  color: #333;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(3) del {
+  font-size: 12px;
+  color: #999;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(4) {
+  width: 140px;
+  padding-bottom: 30px;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(4) button {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(4) input {
+  display: inline-block;
+  width: 35px;
+  height: 21px;
+  border: 1px solid #ccc;
+  margin: 0 -6px;
+  text-align: center;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(5) {
+  width: 160px;
+  padding-bottom: 30px;
+  color: #FE0600;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(6) {
+  padding-bottom: 30px;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(6) span {
+  font-size: 12px;
+  text-align: left;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(6) span a {
+  color: #333;
+  text-align: left;
+}
+
+#main .cont .mcont_c table tbody td:nth-child(6) span a:hover {
+  color: #FF0600;
+  border-bottom: 1px solid #FF0600;
+}

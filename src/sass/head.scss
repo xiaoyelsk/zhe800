@@ -1,0 +1,148 @@
+#head{
+    .head_top{
+        background-color:#FAFAFA;height: 26px;
+        ul{
+            float:right;
+            li{
+                float:left;
+                a{
+                    color:#9999B1;
+                    span{
+                        border-right:1px solid #E5E5E5;
+                        padding:0 15px;
+                        font-size:12px;
+                    }
+                }
+            }
+            >li:nth-child(4) span{
+                color:#EC1611;
+            }
+            >li:nth-child(2) span{
+                border-right:0 none;
+            }
+            >li:nth-child(8) span{
+                border-right:0 none;
+            }
+        }
+    }
+    .head_cent{
+        height:100px;
+        .cont{
+            padding-top:20px;
+            h1{
+                width: 181px;
+                height:41px;
+                background:url('../img/logo.png') no-repeat;
+                float:left;
+                margin-right:24px;
+            }
+            .cent_c{
+                float:left;
+                width: 465px;
+                height: 34px;
+                border:2px solid #E60044;
+                position:relative;
+                .cent_cl{
+                    width:114px;
+                    height:34px;
+                    background:url('../img/sousuo.png') no-repeat; 
+                    margin-left:-3px;
+                    float:left;
+                }
+                .sousuo{
+                    display:inline-block;
+                    width: 294px;
+                    height: 20px;
+                    line-height:20px;
+                    padding:7px 0 5px 10px;
+                }
+                .fangda{
+                    width:40px;
+                    height: 24px;
+                    background-color:#fff;
+                    float:left;
+                    background:url('../img/fangdajing.png') no-repeat;
+                    position:absolute;
+                    top:5px;
+                    right:10px;
+                    background-position:center;
+                    border-left:1px solid #ddd;
+                }
+                i{
+                    display:inline-block;
+                    width: 18px;
+                    height:40px;
+                    background:url('../img/jiantou1.png') no-repeat;
+                    position:absolute;
+                    right:-14px;
+                    top:-3px;
+                }
+            }
+            .cent_r{
+                width: 340px;
+                height: 40px;
+                float:right;
+                background:url('../img/logo2.png') no-repeat;
+            }
+        }
+    }
+    .head_nav{
+            height: 40px;
+            border-bottom:1px solid #ddd;
+            padding-bottom:2px;
+            .tab1{
+                li{
+                    height: 40px;
+                    float:left;
+                    padding:0 25px;
+                    line-height:40px;
+                    text-align:center;
+                    a{
+                        color:#696980;
+                        font-size:16px;
+                    }
+                }
+                li:nth-child(1){padding:0 60px;}
+                li:hover{border-bottom:2px solid #E60044;box-shadow:0 0 10px 0px #ccc;}
+            }
+    }
+    .fieltop{
+        width: 100%;
+        height: 75px;
+        background-color:#fff;
+        position:fixed;
+        top: 0;
+        left: 0;
+        z-index:5;
+        display:none;
+        ul{
+            li{
+                float:left;
+                padding-right:20px;
+                line-height:35px;
+                a{
+                    font-size:14px;
+                    color:#333;
+                    span{
+                        color:#E60044;
+                        font-weight:bold;
+                    }
+                }
+                a:hover{color:#E60044;}
+            }
+        }
+        .wcont{
+            height: 35px;
+            border-bottom:2px solid #FF404C;
+
+            .cont{
+
+            }
+        }
+        .xcont{
+            height: 35px;
+            box-shadow:0 1px 5px 0px #ddd;
+        }
+
+    }
+}
