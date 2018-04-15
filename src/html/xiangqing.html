@@ -7,10 +7,24 @@
     <link rel="stylesheet" type="text/css" href="../css/head.css" />
     <link rel="stylesheet" type="text/css" href="../css/footer.css" />
     <link rel="stylesheet" type="text/css" href="../css/xiangqing.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/jquery.gdsZoom/jquery.gdsZoom.css" />
+    <style type="text/css">
+        .gds-zoom-big img{min-width: 1000px;}
+    </style>
 </head>
     <script src="../js/jquery-3.2.1.js"></script>
     <script src="../js/common.js"></script>
     <script src="../js/xiangqing.js"></script>
+    <script src="../lib/jquery.gdsZoom/jquery.gdsZoom.js"></script>
+    <script>
+
+        jQuery(function($){
+            $('.acont_m').gdsZoom({
+                position:'right'
+            });
+
+        });
+    </script> 
 <body>
     <div id="head">
         
@@ -25,8 +39,11 @@
                 <span class="tname"> 特步夏季跑鞋</span>
             </p>
             <div class="acont_l"> 
-                <img src="" width="403px" height="403px" id="datu"/>
-                <ul>
+                <div class="acont_m">
+                    <img src="" width="403px" height="403px" id="datu"/>
+                </div>
+                <ul class="qie">
+                    <li><a href="javascript:;"><img src=""  width="60px" height="60px" id="xtu" class="imgcss"/></a></li>
                     <li><a href="javascript:;"><img src="../img/6.png" width="60px" height="60px" /></a></li>
                     <li><a href="javascript:;"><img src="../img/1.jpg" width="60px" height="60px" /></a></li>
                     <li><a href="javascript:;"><img src="../img/2.jpg" width="60px" height="60px" /></a></li>
@@ -99,7 +116,75 @@
             </div>
         </div>
     </div>
+    
+    <div id="goods">
+        <div class="cont">
+            <div class="gcont_l fl">
+                <p class="log">女装热门商品</p>
+                <div class="goodsx">
 
+                </div>
+            </div>
+            <div class="gcont_r fl">
+                <ul class="tgb1">
+                    <li><a href="javascript:;">宝贝详情</a></li>
+                    <li><a href="javascript:;">90天评价<span>（105）</span></a></li>
+                    <li><a href="javascript:;">售后保障</a></li>
+                    <li><a href="javascript:;">商品咨询</a></li>
+                    <li><a href="javascript:;">手机购买</a></li>
+                </ul>
+                <div class="gcont_rb">
+                    <ul class="tgb2">
+                        <h3> · 商品参数</h3>
+                        <li>品牌：特步</li>
+                        <li>鞋面材料：其他</li>
+                        <li>内里材料：其他</li>
+                        <li>鞋底材质：橡胶</li>
+                        <li>鞋跟类型：中跟</li>
+                        <li>鞋底款式：其他</li>
+                    </ul>
+                    <ul class="tgb3"> 
+                        <h3> · 发货流程</h3>
+                        <li>
+                            <p>发货：支付成功后，24小时内发货</p>
+                        </li>
+                        <li>
+                            <p>物流：商家从 福建/泉州 发货，支持【EMS经济快递，申通快递、圆通快递】</p>
+                        </li>
+                    </ul>
+                    <ul class="tgb4">
+                        <h3> · 商品尺码</h3>
+                        <span>TIPS：</span>
+                        <li>
+                            <p>1.选购时，请综合参考尺码表中各项参数，这将有助于您选择到合适的尺码。</p>
+                        </li>
+                        <li>
+                            <p>2.（只适用于服装）平衡测量自己的合身服装尺寸参考，对比选购跟准确！</p>
+                        </li>
+                        <span>尺码对照表</span>
+                        <li>
+                            <img src="../img/chima.png" height="75" width="793" alt="" />
+                        </li>
+                    </ul>
+                    <ul class="tgb5">
+                        <h3> · 商品价格说明</h3>
+                        <li>
+                            <p>销售价：是买家最终决定是否购买商品的依据</p>
+                        </li>
+                        <li>
+                            <p>划横线价格：为参考价，该价格可能是品牌专柜标价、商品吊牌价或由品牌供应的正品零售价（如厂商指导价、建议零售价等）或该商品曾经在折800上曾经展示过的销售价：由于地区、事件的差异性和市场行情波动，此参考价格可能与买家购物时展示的不一致，该价格仅供买家参考。</p>
+                        </li>
+                    </ul>
+                    <ul class="tgn6">
+                        <h3> · 商品展示</h3>
+                        <li>
+                            <img src="../img/ctu.png" height="7500" width="751" alt="" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="footer">
         
     </div>

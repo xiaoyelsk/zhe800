@@ -86,17 +86,62 @@
     </div>
     <div class="flxebox">
         <ul>
-            <li><a href="#"><span>购<br />物<br />车</span><i>0</i></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+            <li><a href="../html/car.html"><span>购<br />物<br />车</span><i class="ity">0</i></a></li>
+            <li><a href="#"><em>我的订单</em></a></li>
+            <li><a href="#"><em>我的优惠券</em></a></li>
+            <li><a href="#"><em>我的收藏</em></a></li>
+            <li><a href="#"><em>卖家消息</em></a></li>
         </ul>
         <ul>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+            <li><a href="#"><em>签到</em></a></li>
+            <li><a href="#"><em>扫一扫</em></a></li>
+            <li><a href="#"><em>常遇问题</em></a></li>
+            <li><a href="#"><em>意见反馈</em></a></li>
+            <li class="totp"><a href="javascript:;"><em class="TOP">返回顶部</em></a></li>
         </ul>
     </div>
+    <script>
+        let toTOP = document.querySelector('.TOP');
+        let totp = document.querySelector('.totp');
+
+        let fieltop = document.querySelector('.fieltop');
+        
+
+        //给按钮绑定事件
+        window.onscroll = function(){
+
+             // 获取滚动条滚动距离
+            var scrollHeight = window.scrollY; 
+            //吸顶效果
+            if(scrollHeight>=200){
+                fieltop.style.display = 'block';
+            }
+            else{
+                
+                fieltop.style.display = 'none';
+            }
+
+            if(window.scrollY >1000){
+                totp.style.display = 'block';
+            }else{
+                totp.style.display = 'none';
+
+            }
+
+            //返回顶部
+            toTOP.onclick = function(){
+                timer = setInterval(function(){
+                    var speed = parseInt(window.scrollY/4);
+                    //判断当滚动距离为0时，停止滚动
+                    if(speed<=0){
+                        speed=0;
+                        clearInterval(timer);
+                        scrollTo(0,0);
+                    }
+                    //设置滚动距离
+                    scrollBy(0,-speed);
+                },30);
+            }
+        }
+        
+    </script>

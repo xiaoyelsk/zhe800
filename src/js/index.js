@@ -1,6 +1,6 @@
 jQuery(function($){
     $('#head').load('../html/head.html');
-
+    $('#footer').load('../html/footer.html');
     $.ajax({
         type:'get',
         url:'../api/index.php',
@@ -22,25 +22,26 @@ jQuery(function($){
 
             mcont_b.append(tab2);
             let bum = 0;
+            let bun = 0;
             //给左边按钮绑定事件
             $('#zuo').on('click',function(){
-                if(bum >= 0){
-                    bum = 3246;
+                if(bun <= 0){
+                    bun = 4327;
                     tab2.animate({left:-4327});
                 }else{
-                    tab2.animate({left:bum});
+                    tab2.animate({left:-bun});
                 }
-                bum -= 1078;
-                console.log(bum);
+                bun -= 1078;
+
             })
             $('#you').on('click',function(){
-                if(bum < -3234){
+                if(bum < -3247){
                     bum =0;
                     tab2.animate({left:0})
                 }else{
-                    bum -= 1078
+                    bum -= 1080;
                 }
-                tab2.animate({left:bum});console.log(bum);
+                tab2.animate({left:bum});
             })
 
             let data1 = document.querySelector('.tab2');

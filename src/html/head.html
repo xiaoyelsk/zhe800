@@ -86,21 +86,3 @@
             </div>
         </div>
     </div>
-    <script>
-        let fieltop = document.querySelector('.fieltop');
-        
-        //触发滚动条函数，隐藏或显示按钮
-        window.onscroll = function(){
-            // 获取滚动条滚动距离
-            var scrollHeight = window.scrollY; 
-
-            if(scrollHeight>=200){
-                fieltop.style.display = 'block';
-            }
-            else{
-                
-                fieltop.style.display = 'none';
-            }
-
-        }
-    </script>

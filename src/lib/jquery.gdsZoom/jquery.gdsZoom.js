@@ -26,7 +26,6 @@
 
 			init();
 
-
 			// 获取/创建节点
 			// 绑定事件
 			function init(){

@@ -242,3 +242,131 @@
   color: #FF0600;
   border-bottom: 1px solid #FF0600;
 }
+
+#main .cont .mcont_c .tclas {
+  box-shadow: 0 0 2px 1px #EC1611;
+  background-color: #FDF4F6;
+}
+
+#main .cont .jiesuan {
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #f3f3f3;
+  margin-bottom: 20px;
+}
+
+#main .cont .jiesuan p {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+#main .cont .jiesuan p span a {
+  margin: 0 10px;
+  color: #333;
+}
+
+#main .cont .jiesuan p span a:hover {
+  color: #FF404C;
+  border-bottom: 1px solid #FF404C;
+}
+
+#main .cont .jiesuan div ul li {
+  float: left;
+}
+
+#main .cont .jiesuan div ul li em {
+  font-size: 20px;
+  color: #EC1611;
+  font-weight: bold;
+}
+
+#main .cont .jiesuan div ul li button {
+  display: inline-block;
+  height: 50px;
+  width: 150px;
+  background-color: #ddd;
+  color: #999;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+#main .cont .jiesuan div ul li:nth-child(1) {
+  margin-right: 10px;
+}
+
+#main .cont .jiesuan div ul li:nth-child(1) i {
+  color: #EC1611;
+  padding: 0 5px;
+}
+
+#link {
+  padding-top: 20px;
+}
+
+#link .cont h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#link .cont .sgoods {
+  height: 600px;
+  margin-bottom: 50px;
+}
+
+#link .cont .sgoods ul li {
+  width: 182px;
+  height: 250px;
+  float: left;
+  border: 1px solid #ddd;
+  margin: 0 25px 20px 0;
+  position: relative;
+  padding: 1px 1px;
+}
+
+#link .cont .sgoods ul li p {
+  font-size: 12px;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background-color: #F5F5F5;
+  margin-top: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#link .cont .sgoods ul li p a {
+  color: #666;
+}
+
+#link .cont .sgoods ul li p:hover a {
+  border-bottom: 1px solid #EC1611;
+  color: #EC1611;
+}
+
+#link .cont .sgoods ul li h6 {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  opacity: 0.7;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#link .cont .sgoods ul li h6 em {
+  float: left;
+  color: #999;
+}
+
+#link .cont .sgoods ul li h6 span {
+  float: right;
+  color: #EC165B;
+}
+
+#link .cont .sgoods ul li:hover {
+  border: 1px solid #EC1611;
+}
